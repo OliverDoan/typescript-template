@@ -1,3 +1,50 @@
-h1 {
-  color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: red;
+}
+
+.row {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: no-wrap;
+}
+
+.col-7 {
+    width: calc(100% / 12 * 7);
+    height: 100%;
+    background: #d9d9d9;
+}
+
+.col-5 {
+    width: calc(100% / 12 * 5);
+    height: 100%;
+    background: #ffffff;
+}
+
+.form-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    // padding: 0 113px;
+}
+.form-control {
+}
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #111928;
 }
