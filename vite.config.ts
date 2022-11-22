@@ -11,4 +11,7 @@ export default defineConfig({
       { find: '@styles', replacement: path.resolve(__dirname, './src/styles') },
     ],
   },
+  server: {
+    port: 3002,
+  },
 })

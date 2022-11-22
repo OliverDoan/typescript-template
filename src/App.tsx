@@ -1,13 +1,11 @@
-import { About } from '@components/About'
-
+import { Content, Header } from '@components/layout'
 import '@styles/app.scss'
-function App() {
+
+export const App = () => {
   return (
-    <>
-      <h1>Hello typescipt</h1>
-      <About />
-    </>
+    <div>
+      <Header />
+      <Content />
+    </div>
   )
 }
-
-export default App
